@@ -280,7 +280,7 @@ export function Cta() {
             className="pointer-events-none absolute inset-0 opacity-60"
             style={{
               background:
-                "radial-gradient(40% 60% at 85% 10%, rgba(251,112,96,0.3), transparent 60%)",
+                "radial-gradient(40% 60% at 85% 10%, rgba(134,172,249,0.30), transparent 60%)",
             }}
           />
           <div className="relative">

@@ -10,7 +10,7 @@ export function Hero() {
         className="pointer-events-none absolute inset-0 -z-10"
         style={{
           background:
-            "radial-gradient(60% 50% at 78% 0%, rgba(18,163,168,0.14), transparent 60%), radial-gradient(45% 40% at 10% 15%, rgba(251,112,96,0.10), transparent 55%)",
+            "radial-gradient(60% 50% at 78% 0%, rgba(37,106,244,0.16), transparent 60%), radial-gradient(45% 40% at 10% 15%, rgba(134,172,249,0.12), transparent 55%)",
         }}
       />
       <Container className="grid grid-cols-1 items-center gap-14 pb-20 pt-16 md:pb-28 md:pt-24 lg:grid-cols-[1.05fr_0.95fr]">
@@ -62,7 +62,7 @@ export function Hero() {
             className="absolute -inset-6 -z-10 rounded-[40px] opacity-70 blur-2xl"
             style={{
               background:
-                "linear-gradient(140deg, rgba(18,163,168,0.20), rgba(251,112,96,0.14))",
+                "linear-gradient(140deg, rgba(37,106,244,0.24), rgba(134,172,249,0.14))",
             }}
           />
           <div className="rounded-[28px] border border-line bg-surface p-4 shadow-e3">

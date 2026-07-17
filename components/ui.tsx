@@ -37,7 +37,7 @@ export function Section({
 export function Eyebrow({ children }: { children: ReactNode }) {
   return (
     <span className="inline-flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.08em] text-brand-ink">
-      <span className="h-1 w-1 rounded-full bg-accent" />
+      <span className="h-1 w-1 rounded-full bg-brand" />
       {children}
     </span>
   );
