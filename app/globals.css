@@ -58,6 +58,15 @@
   --color-brand: var(--brand);
   --color-brand-ink: var(--brand-ink);
   --color-accent: var(--accent);
+  /* Status — JellySafe 4단계 리스크 스케일 (대비 검증 완료: 모두 ≥4.5:1) */
+  --color-status-safe-bg: var(--status-safe-bg);
+  --color-status-safe-ink: var(--status-safe-ink);
+  --color-status-caution-bg: var(--status-caution-bg);
+  --color-status-caution-ink: var(--status-caution-ink);
+  --color-status-danger-bg: var(--status-danger-bg);
+  --color-status-danger-ink: var(--status-danger-ink);
+  --color-status-critical-bg: var(--status-critical-bg);
+  --color-status-critical-ink: var(--status-critical-ink);
 
   /* Radius */
   --radius-sm: 8px;
@@ -89,6 +98,14 @@
   --brand: #256af4;
   --brand-ink: #083691;
   --accent: #de122a;
+  --status-safe-bg: #eaf6f0;
+  --status-safe-ink: #1d7449;
+  --status-caution-bg: #fff8db;
+  --status-caution-ink: #7d6300;
+  --status-danger-bg: #feefeb;
+  --status-danger-ink: #b32f09;
+  --status-critical-bg: #fdecee;
+  --status-critical-ink: #b30d21;
   color-scheme: light;
 }
 
@@ -106,6 +123,14 @@
     --brand: #4c85f6;
     --brand-ink: #86acf9;
     --accent: #f04256;
+    --status-safe-bg: #1a342a;
+    --status-safe-ink: #85bda2;
+    --status-caution-bg: #51471a;
+    --status-caution-ink: #ffe57e;
+    --status-danger-bg: #4a2218;
+    --status-danger-ink: #f09579;
+    --status-critical-bg: #491720;
+    --status-critical-ink: #ed7d8a;
     color-scheme: dark;
   }
 }
@@ -121,6 +146,14 @@
   --brand: #4c85f6;
   --brand-ink: #86acf9;
   --accent: #f04256;
+  --status-safe-bg: #1a342a;
+  --status-safe-ink: #85bda2;
+  --status-caution-bg: #51471a;
+  --status-caution-ink: #ffe57e;
+  --status-danger-bg: #4a2218;
+  --status-danger-ink: #f09579;
+  --status-critical-bg: #491720;
+  --status-critical-ink: #ed7d8a;
   color-scheme: dark;
 }
 :root[data-theme="light"] {
@@ -135,6 +168,14 @@
   --brand: #256af4;
   --brand-ink: #083691;
   --accent: #de122a;
+  --status-safe-bg: #eaf6f0;
+  --status-safe-ink: #1d7449;
+  --status-caution-bg: #fff8db;
+  --status-caution-ink: #7d6300;
+  --status-danger-bg: #feefeb;
+  --status-danger-ink: #b32f09;
+  --status-critical-bg: #fdecee;
+  --status-critical-ink: #b30d21;
   color-scheme: light;
 }
 

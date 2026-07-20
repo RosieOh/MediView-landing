@@ -15,9 +15,10 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
+  // globals.css 의 --canvas 와 정확히 일치시켜 브라우저 크롬과 페이지 배경의 경계를 없앤다.
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f6f8f9" },
-    { media: "(prefers-color-scheme: dark)", color: "#0f1518" },
+    { media: "(prefers-color-scheme: light)", color: "#f9fafb" },
+    { media: "(prefers-color-scheme: dark)", color: "#0b0d0e" },
   ],
 };
 
