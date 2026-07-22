@@ -17,7 +17,7 @@ export function Hero() {
         {/* Left — copy */}
         <div>
           <Eyebrow>비대면 진료, 다시 설계하다</Eyebrow>
-          <h1 className="mt-5 text-[40px] font-extrabold leading-[1.1] tracking-[-0.02em] text-content md:text-[56px] md:leading-[1.06]">
+          <h1 className="mt-5 text-balance text-[40px] font-extrabold leading-[1.1] tracking-[-0.02em] text-content md:text-[56px] md:leading-[1.06]">
             집에서 만나는
             <br />
             <span className="text-brand">믿을 수 있는</span> 진료

@@ -1,4 +1,4 @@
-import { Container, Section, Eyebrow, Card, Button } from "./ui";
+import { Container, Section, Card, Button } from "./ui";
 import {
   Video,
   Calendar,
@@ -75,8 +75,7 @@ export function Features() {
     <Section id="features">
       <Container>
         <div className="max-w-2xl">
-          <Eyebrow>기능</Eyebrow>
-          <h2 className="mt-4 text-[32px] font-bold leading-tight text-content md:text-[40px]">
+          <h2 className="text-balance text-[32px] font-bold leading-tight text-content md:text-[40px]">
             진료의 처음부터 끝까지,
             <br />
             매끄럽게 그리고 안전하게
@@ -129,8 +128,7 @@ export function HowItWorks() {
     <Section id="how" className="bg-surface-2/60">
       <Container>
         <div className="max-w-2xl">
-          <Eyebrow>이용 방법</Eyebrow>
-          <h2 className="mt-4 text-[32px] font-bold leading-tight text-content md:text-[40px]">
+          <h2 className="text-balance text-[32px] font-bold leading-tight text-content md:text-[40px]">
             세 단계면 충분합니다
           </h2>
         </div>
@@ -176,8 +174,7 @@ export function Security() {
       <Container>
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
           <div>
-            <Eyebrow>보안 & 신뢰</Eyebrow>
-            <h2 className="mt-4 text-[32px] font-bold leading-tight text-content md:text-[40px]">
+            <h2 className="text-balance text-[32px] font-bold leading-tight text-content md:text-[40px]">
               의료 데이터는
               <br />
               타협하지 않습니다
@@ -243,8 +240,7 @@ export function Faq() {
     <Section id="faq" className="bg-surface-2/60">
       <Container>
         <div className="mx-auto max-w-2xl text-center">
-          <Eyebrow>자주 묻는 질문</Eyebrow>
-          <h2 className="mt-4 text-[32px] font-bold text-content md:text-[40px]">
+          <h2 className="text-balance text-[32px] font-bold text-content md:text-[40px]">
             궁금한 점이 있으신가요?
           </h2>
         </div>
