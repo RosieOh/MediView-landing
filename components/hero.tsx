@@ -18,13 +18,13 @@ export function Hero() {
         <div>
           <Eyebrow>비대면 진료, 다시 설계하다</Eyebrow>
           <h1 className="mt-5 text-balance text-[40px] font-extrabold leading-[1.1] tracking-[-0.02em] text-content md:text-[56px] md:leading-[1.06]">
-            집에서 만나는
+            집에서 <span className="text-brand">평균 3분</span>,
             <br />
-            <span className="text-brand">믿을 수 있는</span> 진료
+            진료부터 처방까지
           </h1>
           <p className="mt-6 max-w-[30rem] text-[17px] leading-8 text-muted md:text-[18px]">
-            본인확인부터 의료진 면허 검증, 진료기록 암호화까지. MediView는
-            안전을 나중에 붙이지 않고 처음부터 설계에 담았습니다.
+            앱을 열면 면허가 검증된 의사와 바로 연결됩니다. 본인확인과 진료기록
+            암호화는 처음부터 켜져 있습니다.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-3">
@@ -123,9 +123,9 @@ export function Hero() {
 
           {/* 플로팅 배지 */}
           <div className="absolute -left-5 top-24 hidden rounded-2xl border border-line bg-surface px-4 py-3 shadow-e2 sm:block">
-            <div className="text-[12px] font-medium text-muted">평균 대기</div>
+            <div className="text-[12px] font-medium text-muted">검증된 의료진</div>
             <div className="tnum text-[20px] font-extrabold text-content">
-              3분 이내
+              1,200+
             </div>
           </div>
         </div>
